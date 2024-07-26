@@ -1,13 +1,13 @@
 import React from "react";
 export default function CTA() {
   return (
-    <section className="bg-slate-200">
+    <section className="bg-slate-400">
       <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="mb-4 text-3xl font-bold md:text-5xl">
             SUBSCRIBE TO NEWSTELLER
           </h2>
-          <p className="mx-auto mb-6 max-w-xl text-sm text-gray-500 sm:text-base md:mb-12">
+          <p className="mx-auto mb-6 max-w-xl text-sm text-gray-950 sm:text-base md:mb-12">
             KHMER CODE ACADEMY (KDA)
           </p>
           <div className="mx-auto mb-4 flex max-w-xl justify-center">

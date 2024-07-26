@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Feature() {
   return (
-    <section className="py-10 bg-slate-100 sm:py-16 lg:py-24">
+    <section className="py-10 bg-slate-400 sm:py-16 lg:py-24">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="grid items-stretch gap-y-10 md:grid-cols-2 md:gap-x-20">
           <div className="relative grid grid-cols-2 gap-6 mt-10 md:mt-0">

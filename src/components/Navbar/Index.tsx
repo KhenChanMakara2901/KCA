@@ -19,7 +19,7 @@ export default function App() {
           <a href="/">HOME</a>
         </li>
         <li className="hover:underline underline-offset-8">
-          <a href="/">ABOUT US</a>
+          <a href="/AboutUs">ABOUT US</a>
         </li>
         <li className="hover:underline underline-offset-8">
           <a href="/">COURSE</a>
@@ -62,7 +62,7 @@ export default function App() {
         </NavbarItem>
         <NavbarItem isActive>
           <Link
-            href="/"
+            href="/AboutUs"
             className="hover:underline underline-offset-2 font-bold text-gray-900 "
           >
             ABOUT US
