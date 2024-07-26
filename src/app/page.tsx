@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { ImagesSliderDemo } from "./Hero/Hero-ui";
 import Profile from "../components/Profile/Profile";
 import Feature from "../components/Feature/Feature";
