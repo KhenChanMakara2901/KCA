@@ -1,7 +1,7 @@
 import React from "react";
 export default function CTA() {
   return (
-    <section className="bg-slate-400">
+    <section className="bg-gradient-to-r from-purple-700 to-sky-500">
       <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="mb-4 text-3xl font-bold md:text-5xl">

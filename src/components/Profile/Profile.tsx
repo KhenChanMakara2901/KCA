@@ -11,7 +11,7 @@ export default function Profile() {
           <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-deep-purple-accent-400 group-hover:scale-y-100" />
           <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
           <div className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0 bg-deep-purple-accent-400 group-hover:scale-y-100" />
-          <div className="relative p-5 bg-slate-100 rounded-sm">
+          <div className="relative p-5 bg-gradient-to-r from-red-800 to-lime-500">
             <div className="flex flex-col mb-2 lg:items-center lg:flex-row">
               <h6 className="font-semibold leading-5 text-xl">
                 EXPERIENCE MENTOR
@@ -23,7 +23,7 @@ export default function Profile() {
             </p>
             <a
               href="/"
-              className="inline-flex items-center font-semibold text-base text-white transition-all duration-200 rounded-md hover:opacity-90 focus:opacity-90 bg-blue-700"
+              className="inline-flex items-center font-semibold text-base text-white transition-all duration-200 rounded-md hover:opacity-90 focus:opacity-90 "
             >
               Learn more
             </a>
@@ -34,7 +34,7 @@ export default function Profile() {
           <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-deep-purple-accent-400 group-hover:scale-y-100" />
           <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
           <div className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0 bg-deep-purple-accent-400 group-hover:scale-y-100" />
-          <div className="relative p-5 bg-slate-100 rounded-sm">
+          <div className="relative p-5 bg-gradient-to-r from-amber-700 to-emerald-700">
             <div className="flex flex-col mb-2 lg:items-center lg:flex-row">
               <h6 className="font-semibold leading-5 text-xl">
                 FRIENDLY PRICE
@@ -46,7 +46,7 @@ export default function Profile() {
             </p>
             <a
               href="/"
-              className="inline-flex items-center font-semibold text-base text-white transition-all duration-200 rounded-md hover:opacity-90 focus:opacity-90 bg-blue-700"
+              className="inline-flex items-center font-semibold text-base text-white transition-all duration-200 rounded-md hover:opacity-90 focus:opacity-90"
             >
               Learn more
             </a>
@@ -57,7 +57,7 @@ export default function Profile() {
           <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-deep-purple-accent-400 group-hover:scale-y-100" />
           <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
           <div className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0 bg-deep-purple-accent-400 group-hover:scale-y-100" />
-          <div className="relative p-5 bg-slate-100 rounded-sm">
+          <div className="relative p-5 bg-gradient-to-r from-sky-600 to-fuchsia-500">
             <div className="flex flex-col mb-2 lg:items-center lg:flex-row">
               <h6 className="font-semibold leading-5 text-xl">
                 QUALITY LEARNING
@@ -69,7 +69,7 @@ export default function Profile() {
             </p>
             <a
               href="/"
-              className="inline-flex items-center font-semibold text-base text-white transition-all duration-200 rounded-md hover:opacity-90 focus:opacity-90 bg-blue-700"
+              className="inline-flex items-center font-semibold text-base text-white transition-all duration-200 rounded-md hover:opacity-90 focus:opacity-90"
             >
               Learn more
             </a>
