@@ -1,4 +1,8 @@
 import React from "react";
+import Image from "next/image";
+import Features from "@/public/Features/Features.jpg";
+import Features2 from "@/public/Features/Features2.jpg";
+import Image4 from "@/public/Features/Image4.png";
 
 export default function Feature() {
   return (
@@ -7,34 +11,24 @@ export default function Feature() {
         <div className="grid items-stretch gap-y-10 md:grid-cols-2 md:gap-x-20">
           <div className="relative grid grid-cols-2 gap-6 mt-10 md:mt-0">
             <div className="overflow-hidden aspect-w-3 aspect-h-5">
-              <picture>
-                <img
-                  className="object-cover object-top origin-top scale-150"
-                  src="https://img.freepik.com/free-vector/e-commerce-concept-illustration_1284-5103.jpg?t=st=1722051245~exp=1722054845~hmac=5ec7ddf5d8397657e3d2ca2515a705204311ad317bdbd98bb5ab50cb3d58a5b3&w=1060"
-                  alt="Img"
-                />
-              </picture>
+              <Image
+                className="object-cover object-top origin-top scale-150"
+                src={Features}
+                alt="Img"
+              />
             </div>
 
             <div className="relative">
               <div className="h-full overflow-hidden aspect-w-3 aspect-h-4">
-                <picture>
-                  <img
-                    className="object-cover scale-150 lg:origin-bottom-right"
-                    src="https://img.freepik.com/free-vector/e-learning-isometric-concept_1284-16835.jpg?t=st=1722008306~exp=1722011906~hmac=84c552ce482972d1d6e4ae6df2894bf0a002b014334c8d14bff6a66373dffb50&w=1060"
-                    alt=""
-                  />
-                </picture>
+                <Image
+                  className="object-cover scale-150 h-100 w-100 lg:origin-bottom-right"
+                  src={Features2}
+                  alt="img"
+                />
               </div>
             </div>
             <div className="absolute -translate-x-1/2 left-1/2 -top-16">
-              <picture>
-                <img
-                  className="w-32 h-32"
-                  src="https://cdn.rareblocks.xyz/collection/celebration/images/features/2/round-text.png"
-                  alt=""
-                />
-              </picture>
+              <Image className="w-32 h-32" src={Image4} alt="img" />
             </div>
           </div>
           <div className="flex flex-col items-start xl:px-16">

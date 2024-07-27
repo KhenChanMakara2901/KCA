@@ -5,9 +5,9 @@ import { ImagesSlider } from "@/src/components/ui/Hero/images-slider";
 
 export function ImagesSliderDemo() {
   const images = [
-    "https://img.freepik.com/free-photo/robot-working-as-teacher-instead-humans_23-2150912075.jpg?t=st=1722007623~exp=1722011223~hmac=8fe29b27abd0a500e34add1a9b0cb51d6d453602172402ec0f195e357bf4e0e5&w=2000",
-    "https://img.freepik.com/free-photo/view-futuristic-robot-school-environment_23-2151110113.jpg?t=st=1722007723~exp=1722011323~hmac=07ebe57e39752b499f24e872c487e3dc3b35df2af6bf166a340f8809e068990f&w=2000",
-    "https://img.freepik.com/free-photo/ordinary-human-job-performed-by-anthropomorphic-robot_23-2151008341.jpg?t=st=1722007751~exp=1722011351~hmac=22a064cdd3ae6a6fe904165c4ce5f63fda4a1c248dba94f297ab27d50ca8c5fd&w=2000",
+    "https://img.freepik.com/free-photo/cartoon-ai-robot-scene_23-2151658115.jpg?t=st=1722052963~exp=1722056563~hmac=39fdc0cbd07af4e6a942fdb9143161a6199755c6c2e3d363e8e1f294b8b13994&w=2000",
+    "https://img.freepik.com/free-photo/cartoon-ai-robot-character-scene_23-2151658082.jpg?t=st=1722052826~exp=1722056426~hmac=f9d29a7812fc22aad600feb3eb4e5783dd138ec535758307402d5ad7c72ee041&w=2000",
+    "https://img.freepik.com/free-photo/cartoon-ai-robot-scene_23-2151658112.jpg?t=st=1722053066~exp=1722056666~hmac=77e49b9cf62b83b2ad080c44f69e54a181a7f6f8c073813ee05c6763ca67d503&w=2000",
   ];
   return (
     <ImagesSlider className="h-[40rem]" images={images}>

@@ -28,7 +28,7 @@ export default function App() {
           <a href="/Contact">CONTACT US</a>
         </li>
         <li className="hover:underline underline-offset-8">
-          <a href="/">BLOG</a>
+          <a href="/Blog">BLOG</a>
         </li>
         <li className="hover:underline underline-offset-2">
           <a href="/">LOGIN</a>
@@ -86,7 +86,7 @@ export default function App() {
         </NavbarItem>
         <NavbarItem>
           <Link
-            href="/"
+            href="/Blog"
             className="hover:underline underline-offset-2 font-bold text-gray-900 "
           >
             BLOG
